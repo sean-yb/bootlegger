@@ -36,16 +36,27 @@
 	<body <?php body_class(); ?>>
 		<header class="row">
 			<div class="container">
+				<div class="col-sm-3">
+
+				</div>
 				<div class="col-sm-6">
 					<a href="<?php echo home_url(); ?>"><img src="<?php echo get_site_url(); ?>/"></a>
 				</div>
-				<div class="col-sm-6">
-
+				<div class="col-sm-3">
+					<?php //if(of_get_option('search_bar', '1')) {?>
+						<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+							<div class="form-group">
+								<input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="<?php _e('Search','wpbootstrap'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
+							</div>
+						</form>
+					<?php //} ?>
 				</div>
 			</div>
 		</header>
 		<div role="banner">
-				
+			<div id="top-red">
+				<h1>FREE SHIPPING ON ALL BATS <span class="seperate">|</span> FREE SHIPPING ON ORDERS 99+</h1>
+			</div>
 			<div class="navbar navbar-default">
 				<div class="container">
           
@@ -59,14 +70,6 @@
 
 					<div class="collapse navbar-collapse navbar-responsive-collapse">
 						<?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
-
-						<?php //if(of_get_option('search_bar', '1')) {?>
-						<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
-							<div class="form-group">
-								<input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="<?php _e('Search','wpbootstrap'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
-							</div>
-						</form>
-						<?php //} ?>
 					</div>
 
 				</div> <!-- end .container -->
