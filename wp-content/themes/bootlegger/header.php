@@ -77,4 +77,4 @@
 		
 		</div> <!-- end banner -->
 		
-		<div class="container">
+		<div id="content" class="clearfix">

@@ -36,6 +36,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 .navbar-default{
 	background-color:rgb(26, 26, 26);
 	border: none;
+	border-radius: 0;
 }
 .last{
 	border:none !important;
@@ -73,8 +74,35 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 	color: white;
 	font-size:24px;
 	padding-top:3px;
+	width: 826px;
+	margin: 0 auto;
+	padding-left: 25px;
 }
 .seperate{
 	width:50px;
 	display: inline-block;
+}
+
+.featured{
+	background-color:rgb(219, 219, 219);
+}
+
+
+#footer{
+	background-color: rgb(27, 27, 27);
+	border-top: 40px solid #060606;
+	color: white;
+	padding-top:10px;
+	overflow: auto;
+}
+#footer h1{
+	font-weight: bold;
+}
+.border-right{
+	border-right: 1px solid white;
+}
+.copyright{
+	clear:both;
+	border-top:1px solid white;
+	padding:30px;
 }
