@@ -26,8 +26,27 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 .page-header{
 	margin:0;
 }
+.navbar-form.navbar-right:last-child{
+	margin:0;
+}
 
 /** END BOOTSTRAP STYLES FIX **/
+body{
+	padding:0;
+	background-color:rgb(219, 219, 219);
+}
+header.header{
+	padding:70px 0;
+	background-image: url("../../uploads/2014/07/header_background.jpg");
+	background-attachment: fixed;
+	background-size:100%;
+}
+header img.logo{
+	max-width:803px;
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
 
 #sidebar1{
 	margin-top:25px;
@@ -46,6 +65,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 	text-transform: uppercase;
 	color:white;
 	font-size: 18px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color:red;
 }
 
 @media screen and (min-width:768px){
@@ -78,16 +100,51 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 	margin: 0 auto;
 	padding-left: 25px;
 }
+@media screen and (max-width:875px){
+	#top-red h1{
+		font-size: 15px;
+		padding-top: 8px;
+		width: 540px;
+		padding-left: 22px;
+	}
+
+}
+@media screen and (max-width:600px){
+	header.header{
+		padding:0;
+	}
+	#top-red{
+		display:none;
+	}
+}
 .seperate{
 	width:50px;
 	display: inline-block;
 }
 
 .featured{
-	background-color:rgb(219, 219, 219);
+	padding:50px 0;
 }
-
-
+.featured h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.featured img{
+	max-width: 230px;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
+.cta{
+	padding:50px 0 60px;
+	background-color:white;
+}
+.cta h2{
+	color:red;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 #footer{
 	background-color: rgb(27, 27, 27);
 	border-top: 40px solid #060606;
@@ -105,4 +162,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 	clear:both;
 	border-top:1px solid white;
 	padding:30px;
+}
+.woocommerce .related ul li.product, .woocommerce .related ul.products li.product{
+	width:20%;
+}
+
+.social-media{
+	padding: 15px 0 30px;
+	width:240px;
+}
+.social-media img{
+	max-width:57px;
+	width:100%;
+	padding:0 3px;
 }

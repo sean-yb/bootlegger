@@ -10,33 +10,37 @@ Template Name: Homepage
 					<div class="row featured">
 						<div class="container">
 							<div class="col-sm-3">
-								<h2>Top </h2>
+								<h3>Top Bats</h3>
+								<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2014/07/bat_ex.jpg">
 							</div>
 							<div class="col-sm-3">
-								<h2>Top </h2>
+								<h3>Top Gloves</h3>
+								<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2014/07/glove_ex.jpg">
 							</div>
 							<div class="col-sm-3">
-								<h2>Top </h2>
+								<h3>Top Shoes</h3>
+								<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2014/07/shoes_ex.jpg">
 							</div>
 							<div class="col-sm-3">
-								<h2>Top </h2>
+								<h3>Catcher's Gear</h3>
+								<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2014/07/catcher_ex.jpg">
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row cta">
 						<div class="container">
 							<div class="col-sm-4">
-								<h1>Featured Product</h1>
+								<h2>Featured Product</h2>
 								<h4>Lorem ipsum</h4>
 								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
 							</div>
 							<div class="col-sm-4">
-								<h1>Sign Up For Savings</h1>
+								<h2>Sign Up For Savings</h2>
 								<h4>Lorem ipsum</h4>
 								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
 							</div>
 							<div class="col-sm-4">
-								<h1>On Sale</h1>
+								<h2>On Sale</h2>
 								<h4>Lorem ipsum</h4>
 								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
 							</div>

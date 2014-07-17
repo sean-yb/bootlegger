@@ -34,15 +34,20 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
-		<header class="row">
-			<div class="container">
+		<header class="header row">
 				<div class="col-sm-3">
 
 				</div>
 				<div class="col-sm-6">
-					<a href="<?php echo home_url(); ?>"><img src="<?php echo get_site_url(); ?>/"></a>
+					<a href="<?php echo home_url(); ?>"><img class="logo" src="<?php echo get_site_url(); ?>/wp-content/uploads/2014/07/logo.png"></a>
 				</div>
 				<div class="col-sm-3">
+					<div class="woo-top-menu">
+						<a href="<?php echo get_site_url(); ?>"></a>
+						<a href="<?php echo get_site_url(); ?>"></a>
+						<a href="<?php echo get_site_url(); ?>"></a>
+						<a href="<?php echo get_site_url(); ?>"></a>
+					</div>
 					<?php //if(of_get_option('search_bar', '1')) {?>
 						<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
 							<div class="form-group">
@@ -51,7 +56,6 @@
 						</form>
 					<?php //} ?>
 				</div>
-			</div>
 		</header>
 		<div role="banner">
 			<div id="top-red">

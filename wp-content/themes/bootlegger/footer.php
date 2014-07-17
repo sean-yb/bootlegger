@@ -6,6 +6,12 @@
 						<h1>CONNECT WITH US</h1>
 						<h4>Lorem ipsum</h4>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
+						<div class="social-media">
+							<a href="http://www.facebook.com"><img src="<?php echo get_site_url() ?>/wp-content/uploads/2014/07/fb-icon.png"></a>
+							<a href="http://www.google.com"><img src="<?php echo get_site_url() ?>/wp-content/uploads/2014/07/g+-icon.png"></a>
+							<a href="<?php echo get_site_url() ?>/feed"><img src="<?php echo get_site_url() ?>/wp-content/uploads/2014/07/rss-icon.png"></a>
+							<a href="http://www.linkedin.com"><img src="<?php echo get_site_url() ?>/wp-content/uploads/2014/07/in-icon.png"></a>
+						</div>
 					</div>
 					<div class="col-sm-6">
 						<h1>CONTACT US</h1>
